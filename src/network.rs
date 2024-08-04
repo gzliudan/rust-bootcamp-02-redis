@@ -1,6 +1,6 @@
 use crate::{
     cmd::{Command, CommandExecutor},
-    Backend, RespDecoder, RespEncoder, RespError, RespFrame,
+    Backend, RespDecoderV2, RespEncoder, RespError, RespFrame,
 };
 use anyhow::Result;
 use futures::SinkExt;
